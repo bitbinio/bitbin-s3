@@ -1,0 +1,45 @@
+{
+  "name": "bitbin-s3",
+  "version": "0.0.2",
+  "description": "Amazon S3 adapter for Bitbin.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitbinio/bitbin-s3.git"
+  },
+  "keywords": [
+    "bitbin",
+    "S3",
+    "adapter"
+  ],
+  "author": {
+    "name": "Stephen Young",
+    "email": "young.steveo@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitbinio/bitbin-s3/issues"
+  },
+  "homepage": "https://github.com/bitbinio/bitbin-s3",
+  "dependencies": {
+    "junk": "^1.0.0",
+    "q": "^1.1.2"
+  },
+  "peerDependencies": {
+    "bitbin": ">= 0.0.2 < 1"
+  },
+  "devDependencies": {
+    "bitbin": "^0.0.3",
+    "chai": "^2.3.0",
+    "chai-as-promised": "^5.0.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-mocha-test": "^0.12.4",
+    "md5-transpose-list": "^1.0.2",
+    "mocha": "^2.0.1"
+  }
+}
