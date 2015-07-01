@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/bitbinio/bitbin-s3",
   "dependencies": {
+    "aws-sdk": "^2.1.36",
     "junk": "^1.0.0",
     "q": "^1.1.2"
   },
